@@ -14,7 +14,6 @@ by **Priyanka S** (23MIA1032), **Kavya N** (23MIA1125)
 ![Dataset](https://img.shields.io/badge/Dataset-Amazon_Reviews_2023-CDB8EC?style=flat-square&labelColor=8A8177)
 ![Paper](https://img.shields.io/badge/Paper-IEEEtran_6pp-CDB8EC?style=flat-square&labelColor=8A8177)
 
-> Badges use the project's shared theme — cream canvas `#FAF6F0`, ink `#211D18`, a single butter accent `#EFDC7C`, and the pastel set (butter / blush / sage / sky / lilac / coral). The same theme runs across the notebook, the website, the PPT, and this README.
 
 ---
 
