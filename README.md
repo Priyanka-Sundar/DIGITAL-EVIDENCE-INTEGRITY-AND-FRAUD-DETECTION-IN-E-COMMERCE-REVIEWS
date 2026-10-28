@@ -170,14 +170,6 @@ Reading the scores as a forensic analyst — not just listing numbers.
 
 ---
 
-## Website & Chrome Extension
-
-A customer-facing console that reuses the notebook's exported artifacts. The TypeScript rules engine (`lib/scoring.ts`) faithfully ports the notebook's components, domains, ordered verdict cascade, and seeded Monte-Carlo null model, so no Python is required on Vercel.
-
-Routes: `/` (input) · `/analysis` (verdict + confidence badge + 12-signal breakdown + why-this-verdict) · `/dashboard` (full 60k-review outputs) · `/about` (methodology) · `/api/analyze` (POST) · `/api/dashboard` (GET).
-
----
-
 ## How to Run Locally
 
 ### 1. Forensic notebook
