@@ -17,26 +17,6 @@ by **Priyanka S** (23MIA1032), **Kavya N** (23MIA1125)
 
 ---
 
-## Table of contents
-
-1. [Overview](#overview)
-2. [Problem Statement](#problem-statement)
-3. [Objectives](#objectives)
-4. [Dataset](#dataset)
-5. [Methodology / Pipeline](#methodology--pipeline)
-6. [Architecture](#architecture)
-7. [Models & Metrics](#models--metrics)
-8. [Results](#results)
-9. [Results & Discussion](#results--discussion)
-10. [Website & Chrome Extension](#website--chrome-extension)
-11. [How to Run Locally](#how-to-run-locally)
-12. [Project Structure](#project-structure)
-13. [Deliverables](#deliverables)
-14. [Publication](#publication)
-15. [References](#references)
-16. [License / Acknowledgements](#license--acknowledgements)
-
----
 
 ## Overview
 
@@ -106,10 +86,6 @@ A five-stage forensic pipeline — reproducible, interpretable, and exportable.
 ## Architecture
 
 From raw reviews to a real-time forensic verdict. Offline analysis (data → forensic features → models/artifacts) feeds the real-time serving path (API → web console → user), with a feedback loop for live review/listing input.
-
-![Architecture — data layer to forensic features to models to API to web console to user](forensic-analytics-presentation/architecture.png)
-
-Export-ready diagram: [architecture.svg](forensic-analytics-presentation/architecture.svg) · [architecture.png](forensic-analytics-presentation/architecture.png)
 
 ---
 
@@ -198,17 +174,7 @@ Reading the scores as a forensic analyst — not just listing numbers.
 
 A customer-facing console that reuses the notebook's exported artifacts. The TypeScript rules engine (`lib/scoring.ts`) faithfully ports the notebook's components, domains, ordered verdict cascade, and seeded Monte-Carlo null model, so no Python is required on Vercel.
 
-**Live console** — [`forensic-analytics-web/`](forensic-analytics-web/) · see its [README](forensic-analytics-web/README.md) for the full route map.
-
-| Input form | Verdict & sub-signals | Population dashboard |
-|:---:|:---:|:---:|
-| <img src="forensic-analytics-presentation/screens/home.png" width="290" alt="Input form"> | <img src="forensic-analytics-presentation/screens/analysis.png" width="290" alt="Verdict and sub-signals"> | <img src="forensic-analytics-presentation/screens/dashboard.png" width="290" alt="Population dashboard"> |
-
 Routes: `/` (input) · `/analysis` (verdict + confidence badge + 12-signal breakdown + why-this-verdict) · `/dashboard` (full 60k-review outputs) · `/about` (methodology) · `/api/analyze` (POST) · `/api/dashboard` (GET).
-
-**Chrome Extension** (`extension/`) — a browser extension that runs the same 12-signal engine in-page. It scores reviews directly on live e-commerce product pages and surfaces a verdict badge next to each review, reusing the exported JSON artifacts so browser results match the notebook and website exactly.
-
-**Deployment** — deploys to the Vercel free tier with no build configuration; see [How to Run Locally](#how-to-run-locally) and the [deployment guide](deployment/).
 
 ---
 
@@ -251,104 +217,6 @@ Production build & preview:
 npm run build     # compile, type-check, prerender
 npm run start     # serve at http://localhost:3000
 ```
-
-### 3. Optional Python inference endpoint
-
-The TypeScript engine reads the bundled `data/*.json` artifacts automatically — nothing to configure. To route `/api/analyze` through the notebook's `.joblib` models instead, set one variable and start the FastAPI server:
-
-```bash
-# .env.local
-PYTHON_INFERENCE_URL=http://localhost:8000
-```
-
-```bash
-pip install fastapi uvicorn joblib numpy
-OUTPUT_DIR=./outputs python -m uvicorn server.inference_server:app --port 8000
-```
-
-`/api/analyze` tries the Python endpoint first and falls back to the TypeScript engine, so the app keeps working either way.
-
-### 4. Chrome extension
-
-```
-chrome://extensions → enable Developer mode → Load unpacked → select extension/
-```
-
-### 5. Deploy to Vercel
-
-```bash
-npm i -g vercel
-vercel            # first run links the project (free tier is fine)
-vercel --prod     # deploy to production
-```
-
-Leave `PYTHON_INFERENCE_URL` unset in Vercel so the deployment uses the self-contained TypeScript engine.
-
----
-
-## Project Structure
-
-```
-J_FA/
-├── README.md                                  # this file (repo front page)
-├── amazon_forensic_analytics_v5.ipynb         # forensic notebook (source of truth, current)
-├── amazon_forensic_analytics_v4.ipynb         # prior notebook revision
-│
-├── forensic-analytics-web-v2/                 # Next.js review-integrity console (current)
-│   ├── app/                                   # routes: /, /analysis, /dashboard, /about, /api
-│   ├── components/                            # Header, Footer, Visuals, Charts
-│   ├── lib/                                   # scoring.ts engine, text.ts, types.ts, store.ts
-│   ├── data/                                  # exported JSON artifacts + dashboard_data.json
-│   ├── server/inference_server.py             # optional FastAPI endpoint (.joblib)
-│   └── README.md                              # run/deploy instructions
-├── forensic-analytics-web/                    # prior console revision
-│
-├── forensic-analytics-presentation-v2/        # current PPT (native-shape deck) + diagram
-├── forensic-analytics-presentation/           # prior deck + HTML mirror + slide assets
-│
-├── report-v3/                                 # current project report (md + docx + figures)
-├── report-v2/  report/                        # prior report revisions
-│
-├── paper/                                     # IEEEtran paper (6pp) + figures + .bib
-│   ├── paper.tex / paper.pdf / paper.docx     # source, compiled PDF, Word export
-│   ├── paper.bib / paper.bbl                  # 20 verified IEEE/Springer references
-│   ├── make_figures.py / tex_to_docx.py       # figure + DOCX generators
-│   └── figures/                               # fig1 architecture … fig4 console
-│
-└── consumer_complaint_intelligence_v1.ipynb   # related complaint-intelligence notebook
-```
-
----
-
-## Deliverables
-
-| Deliverable | Location | Status |
-|---|---|---|
-| Forensic notebook (analysis + artifacts) | [`amazon_forensic_analytics_v5.ipynb`](amazon_forensic_analytics_v5.ipynb) | ✅ Included |
-| Review-integrity website + dashboard | [`forensic-analytics-web-v2/`](forensic-analytics-web-v2/) | ✅ Included |
-| Project presentation (PPT, editable) | [`forensic-analytics-presentation-v2/`](forensic-analytics-presentation-v2/) | ✅ Included |
-| Architecture diagram (SVG + PNG) | [`architecture.svg`](forensic-analytics-presentation/architecture.svg) | ✅ Included |
-| Slide-by-slide text (markdown) | [`PRESENTATION.md`](forensic-analytics-presentation/PRESENTATION.md) | ✅ Included |
-| Project report (full fundamentals) | [`report-v3/PROJECT_REPORT.md`](report-v3/PROJECT_REPORT.md) · [`.docx`](report-v3/PROJECT_REPORT.docx) | ✅ Included |
-| IEEE-style paper (6pp, PDF + DOCX + .bib) | [`paper/paper.pdf`](paper/paper.pdf) · [`paper/`](paper/) | ✅ Included |
-| Chrome extension | `extension/` | 📋 Separate deliverable |
-| Deployment guide | `deployment/` (Vercel steps above) | 📋 Separate deliverable |
-
----
-
-## Publication
-
-An IEEE-format paper documents the full framework — fundamentals, methodology, architecture, experiments, and a signal-by-signal limitations analysis.
-
-| Artifact | File |
-|---|---|
-| Compiled paper (IEEEtran, 6pp, 2-column) | [`paper/paper.pdf`](paper/paper.pdf) |
-| LaTeX source | [`paper/paper.tex`](paper/paper.tex) |
-| Word export | [`paper/paper.docx`](paper/paper.docx) |
-| References (20 verified IEEE/Springer) | [`paper/paper.bib`](paper/paper.bib) |
-| Figures (architecture, results, console) | [`paper/figures/`](paper/figures/) |
-
-Build: `pdflatex → bibtex → pdflatex ×2` (MiKTeX). See [`paper/README.md`](paper/README.md) for the full build steps and the reference-verification record.
 
 ---
 
