@@ -12,7 +12,6 @@ by **Priyanka S** (23MIA1032), **Kavya N** (23MIA1125)
 ![Notebook](https://img.shields.io/badge/Engine-Python_+_scikit--learn-BFD6A3?style=flat-square&labelColor=8A8177)
 ![Web](https://img.shields.io/badge/Console-Next.js-F4B8D0?style=flat-square&labelColor=8A8177)
 ![Dataset](https://img.shields.io/badge/Dataset-Amazon_Reviews_2023-CDB8EC?style=flat-square&labelColor=8A8177)
-![Paper](https://img.shields.io/badge/Paper-IEEEtran_6pp-CDB8EC?style=flat-square&labelColor=8A8177)
 
 
 ---
