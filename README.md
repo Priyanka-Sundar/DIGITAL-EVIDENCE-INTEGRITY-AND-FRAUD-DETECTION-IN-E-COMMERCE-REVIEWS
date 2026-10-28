@@ -366,7 +366,7 @@ Build: `pdflatex → bibtex → pdflatex ×2` (MiKTeX). See [`paper/README.md`](
 **Acknowledgements.**
 
 - **McAuley Lab**, UCSD, for the public Amazon Reviews 2023 dataset.
-- **Dr. S. Johanan Joysingh**, Forensic Analytics, VIT Chennai — course supervisor.
+- Professor: **Dr. S. Johanan Joysingh**, Forensic Analytics, VIT Chennai
 - The open-source projects that make this work possible: Python, scikit-learn, pandas, NetworkX, joblib, Pillow, Next.js, Tailwind CSS, and FastAPI.
 
 ---
