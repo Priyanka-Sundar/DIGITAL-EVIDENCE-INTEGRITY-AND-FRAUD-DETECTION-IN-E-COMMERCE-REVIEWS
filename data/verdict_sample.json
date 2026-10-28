@@ -1,0 +1,1184 @@
+[
+  {
+    "case_id": "CASE-0039662",
+    "review_id": "39661",
+    "user_id": "AFZ7TLD6NLZYGWDQBCMBCVA7ISFQ",
+    "parent_asin": "B00MRVJY5C",
+    "rating": 1.0,
+    "forensic_signal_score": 14,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0001999600079984003,
+    "likelihood_confidence_pct": 99.98,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_image",
+        "points": 1
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0003678",
+    "review_id": "3677",
+    "user_id": "AEMI74JHKARVZR5F3DVAK4FMANXQ",
+    "parent_asin": "B09W33CPY8",
+    "rating": 1.0,
+    "forensic_signal_score": 14,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0001999600079984003,
+    "likelihood_confidence_pct": 99.98,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Content authenticity concern",
+    "customer_guidance": "Review content may be copied or fabricated; cross-check identical wording and images before trusting the claim.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 2
+      },
+      {
+        "key": "evidence_image",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      },
+      {
+        "key": "evidence_image_reuse",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0059103",
+    "review_id": "59102",
+    "user_id": "AHFBCEEBGP53MRV34475KM3UCFZQ",
+    "parent_asin": "B00022OBQK",
+    "rating": 1.0,
+    "forensic_signal_score": 14,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0001999600079984003,
+    "likelihood_confidence_pct": 99.98,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_temporal",
+        "points": 1
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0010659",
+    "review_id": "10658",
+    "user_id": "AG5V3EY3MHETL2PGND5V23E56AFQ",
+    "parent_asin": "B00006IR39",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 2
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_temporal",
+        "points": 1
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0032833",
+    "review_id": "32832",
+    "user_id": "AFE54MELB5IGFUYBSOBGJOSOMEPA",
+    "parent_asin": "B08BC7VWM3",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0032837",
+    "review_id": "32836",
+    "user_id": "AFE54MELB5IGFUYBSOBGJOSOMEPA",
+    "parent_asin": "B084PCDJT5",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0032843",
+    "review_id": "32842",
+    "user_id": "AFE54MELB5IGFUYBSOBGJOSOMEPA",
+    "parent_asin": "B07HJXCZZN",
+    "rating": 2.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 1
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_image",
+        "points": 1
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0003114",
+    "review_id": "3113",
+    "user_id": "AGYPJI2W4ZRQIEJSAIQCVRG7KIRA",
+    "parent_asin": "B084T3RMQ6",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_image",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0003115",
+    "review_id": "3114",
+    "user_id": "AGYPJI2W4ZRQIEJSAIQCVRG7KIRA",
+    "parent_asin": "B07WXG3QNS",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_image",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0003116",
+    "review_id": "3115",
+    "user_id": "AGYPJI2W4ZRQIEJSAIQCVRG7KIRA",
+    "parent_asin": "B00YYDHA9S",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0039666",
+    "review_id": "39665",
+    "user_id": "AFZ7TLD6NLZYGWDQBCMBCVA7ISFQ",
+    "parent_asin": "B004WK3R4U",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0033214",
+    "review_id": "33213",
+    "user_id": "AEH5OPW5ZB5MIEO47LJJVXCTYJXA",
+    "parent_asin": "B01HP7RKPI",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Content authenticity concern",
+    "customer_guidance": "Review content may be copied or fabricated; cross-check identical wording and images before trusting the claim.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 1
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_text_repetition",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0033222",
+    "review_id": "33221",
+    "user_id": "AEH5OPW5ZB5MIEO47LJJVXCTYJXA",
+    "parent_asin": "B00AJWK5WW",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0033223",
+    "review_id": "33222",
+    "user_id": "AEH5OPW5ZB5MIEO47LJJVXCTYJXA",
+    "parent_asin": "B00ZONG9WQ",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0040218",
+    "review_id": "40217",
+    "user_id": "AG3Z7GJY4YL7CHN77YF7NXS6CKJA",
+    "parent_asin": "B07K7VHTL4",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0003681",
+    "review_id": "3680",
+    "user_id": "AEMI74JHKARVZR5F3DVAK4FMANXQ",
+    "parent_asin": "B09VL61NMR",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Content authenticity concern",
+    "customer_guidance": "Review content may be copied or fabricated; cross-check identical wording and images before trusting the claim.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 1
+      },
+      {
+        "key": "evidence_image",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      },
+      {
+        "key": "evidence_image_reuse",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0003683",
+    "review_id": "3682",
+    "user_id": "AEMI74JHKARVZR5F3DVAK4FMANXQ",
+    "parent_asin": "B08PXFRDJX",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0014813",
+    "review_id": "14812",
+    "user_id": "AFFWZXEWLW542LX2CGKNCMDJY7IQ",
+    "parent_asin": "B00ESCR2KM",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0014818",
+    "review_id": "14817",
+    "user_id": "AFFWZXEWLW542LX2CGKNCMDJY7IQ",
+    "parent_asin": "B00XITFQPE",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 2
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_temporal",
+        "points": 1
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0014821",
+    "review_id": "14820",
+    "user_id": "AFFWZXEWLW542LX2CGKNCMDJY7IQ",
+    "parent_asin": "B0000AFX3Y",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0005697",
+    "review_id": "5696",
+    "user_id": "AEKPJAGBAS2ZYMVBSRW4XYEQI7IA",
+    "parent_asin": "B0007WIC1K",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0003051",
+    "review_id": "3050",
+    "user_id": "AHIE3AXU3OL7AJHSRPSDNC53Q23A",
+    "parent_asin": "B01CFORG3C",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0003399",
+    "review_id": "3398",
+    "user_id": "AGSXMEKFKM2HDFZ4UNE676O6D5LQ",
+    "parent_asin": "B07KQ5MFYW",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_image",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0031954",
+    "review_id": "31953",
+    "user_id": "AF52JT3YJ3H3TODJPUTOK4D44D6Q",
+    "parent_asin": "B002ADV6QM",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_image",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-0006949",
+    "review_id": "6948",
+    "user_id": "AHDZKPPKUT7HD47LXCBN7RQNN6KQ",
+    "parent_asin": "B0CCS288TB",
+    "rating": 1.0,
+    "forensic_signal_score": 13,
+    "investigation_priority": "High-priority examination",
+    "cooccurrence_surprise_p": 0.0005998800239952009,
+    "likelihood_confidence_pct": 99.94,
+    "cooccurrence_likelihood": "Very strong",
+    "dominant_signal_domain": "reviewer_fraud",
+    "forensic_verdict": "Reviewer fraud pattern",
+    "customer_guidance": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "investigative_conclusion": "High-priority forensic examination is recommended; additional evidence is required before attributing fraudulent or coordinated behavior.",
+    "factors": [
+      {
+        "key": "evidence_rating",
+        "points": 2
+      },
+      {
+        "key": "evidence_complaint",
+        "points": 3
+      },
+      {
+        "key": "evidence_unverified",
+        "points": 1
+      },
+      {
+        "key": "evidence_activity",
+        "points": 2
+      },
+      {
+        "key": "evidence_negative_behavior",
+        "points": 2
+      },
+      {
+        "key": "evidence_network",
+        "points": 1
+      },
+      {
+        "key": "evidence_anomaly",
+        "points": 2
+      }
+    ]
+  }
+]

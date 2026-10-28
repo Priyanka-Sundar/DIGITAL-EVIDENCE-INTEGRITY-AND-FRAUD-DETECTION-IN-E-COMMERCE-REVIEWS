@@ -1,0 +1,1868 @@
+{
+  "component_firing_rates": {
+    "evidence_rating": 1.0,
+    "evidence_complaint": 0.506017,
+    "evidence_image": 0.045683,
+    "evidence_unverified": 0.12585,
+    "evidence_rating_deviation": 0.0,
+    "evidence_activity": 0.033817,
+    "evidence_negative_behavior": 1.0,
+    "evidence_text_repetition": 0.007117,
+    "evidence_temporal": 0.009733,
+    "evidence_network": 0.109167,
+    "evidence_anomaly": 0.293683,
+    "evidence_image_reuse": 0.00015
+  },
+  "component_weights": {
+    "evidence_rating": 2,
+    "evidence_complaint": 3,
+    "evidence_image": 1,
+    "evidence_unverified": 1,
+    "evidence_rating_deviation": 2,
+    "evidence_activity": 2,
+    "evidence_negative_behavior": 2,
+    "evidence_text_repetition": 2,
+    "evidence_temporal": 2,
+    "evidence_network": 1,
+    "evidence_anomaly": 2,
+    "evidence_image_reuse": 2
+  },
+  "population_moments": {
+    "mean": {
+      "review_count": 1.925607,
+      "mean_rating": 1.354805,
+      "negative_ratio": 1.0,
+      "one_star_ratio": 0.645195,
+      "complaint_ratio": 0.494421,
+      "image_ratio": 0.043679,
+      "product_count": 1.921371,
+      "mean_text_length": 350.544567,
+      "helpful_vote_total": 4.035142,
+      "network_degree": 1.921371
+    },
+    "std": {
+      "review_count": 2.27254,
+      "mean_rating": 0.426722,
+      "negative_ratio": 0.0,
+      "one_star_ratio": 0.426722,
+      "complaint_ratio": 0.444278,
+      "image_ratio": 0.181246,
+      "product_count": 2.265976,
+      "mean_text_length": 386.570301,
+      "helpful_vote_total": 43.324667,
+      "network_degree": 2.265976
+    }
+  },
+  "monthly_burst_lookup": {
+    "1999-12": 1.0,
+    "2000-07": 1.0,
+    "2000-12": 1.0,
+    "2001-03": 1.0,
+    "2001-05": 1.0,
+    "2001-12": 2.0,
+    "2002-01": 1.0,
+    "2002-02": 1.5,
+    "2002-04": 1.0,
+    "2002-05": 1.0,
+    "2002-06": 1.0,
+    "2002-07": 1.0,
+    "2002-08": 1.0,
+    "2002-09": 2.0,
+    "2002-11": 2.0,
+    "2003-01": 1.0,
+    "2003-02": 0.5,
+    "2003-03": 1.0,
+    "2003-04": 1.0,
+    "2003-05": 1.0,
+    "2003-06": 0.5,
+    "2003-07": 1.0,
+    "2003-09": 2.0,
+    "2003-10": 1.0,
+    "2003-11": 1.0,
+    "2004-02": 5.0,
+    "2004-03": 1.0,
+    "2004-04": 0.6667,
+    "2004-05": 1.0,
+    "2004-06": 0.5,
+    "2004-07": 3.0,
+    "2004-08": 1.0,
+    "2004-09": 1.0,
+    "2004-10": 1.0,
+    "2004-11": 1.25,
+    "2004-12": 1.4,
+    "2005-01": 1.0,
+    "2005-02": 0.4286,
+    "2005-03": 0.3333,
+    "2005-04": 1.0,
+    "2005-05": 1.0,
+    "2005-06": 1.0,
+    "2005-07": 0.3333,
+    "2005-08": 1.0,
+    "2005-09": 1.5,
+    "2005-10": 2.3333,
+    "2005-11": 1.4286,
+    "2005-12": 0.8571,
+    "2006-01": 1.0,
+    "2006-02": 1.0,
+    "2006-03": 0.7143,
+    "2006-04": 1.0,
+    "2006-05": 0.8,
+    "2006-06": 1.0,
+    "2006-07": 1.0,
+    "2006-08": 0.25,
+    "2006-09": 1.0,
+    "2006-10": 1.5,
+    "2006-11": 1.0,
+    "2006-12": 2.3333,
+    "2007-01": 1.3571,
+    "2007-02": 0.7143,
+    "2007-03": 1.0,
+    "2007-04": 1.0,
+    "2007-05": 1.1176,
+    "2007-06": 0.8,
+    "2007-07": 1.0,
+    "2007-08": 1.0,
+    "2007-09": 1.4545,
+    "2007-10": 1.0,
+    "2007-11": 1.1875,
+    "2007-12": 1.0,
+    "2008-01": 1.0,
+    "2008-02": 1.1053,
+    "2008-03": 0.9474,
+    "2008-04": 0.7222,
+    "2008-05": 0.6923,
+    "2008-06": 1.6154,
+    "2008-07": 1.0,
+    "2008-08": 0.9375,
+    "2008-09": 1.1875,
+    "2008-10": 1.0,
+    "2008-11": 1.0,
+    "2008-12": 1.9412,
+    "2009-01": 1.0,
+    "2009-02": 1.0,
+    "2009-03": 1.0,
+    "2009-04": 0.68,
+    "2009-05": 1.0,
+    "2009-06": 1.0526,
+    "2009-07": 0.8947,
+    "2009-08": 1.3,
+    "2009-09": 1.0,
+    "2009-10": 1.1923,
+    "2009-11": 1.0,
+    "2009-12": 1.5484,
+    "2010-01": 1.0,
+    "2010-02": 0.6,
+    "2010-03": 1.0,
+    "2010-04": 1.2424,
+    "2010-05": 0.9697,
+    "2010-06": 1.0,
+    "2010-07": 1.3158,
+    "2010-08": 1.0,
+    "2010-09": 1.02,
+    "2010-10": 1.2549,
+    "2010-11": 1.0156,
+    "2010-12": 1.0615,
+    "2011-01": 0.9692,
+    "2011-02": 1.0,
+    "2011-03": 0.8889,
+    "2011-04": 0.8036,
+    "2011-05": 1.1964,
+    "2011-06": 1.0,
+    "2011-07": 1.1493,
+    "2011-08": 0.9242,
+    "2011-09": 1.0,
+    "2011-10": 1.0,
+    "2011-11": 1.0,
+    "2011-12": 1.6901,
+    "2012-01": 1.0,
+    "2012-02": 0.7636,
+    "2012-03": 1.0,
+    "2012-04": 0.8929,
+    "2012-05": 1.069,
+    "2012-06": 1.0,
+    "2012-07": 1.1505,
+    "2012-08": 1.0,
+    "2012-09": 1.1682,
+    "2012-10": 1.0,
+    "2012-11": 1.192,
+    "2012-12": 1.4765,
+    "2013-01": 1.0955,
+    "2013-02": 0.8636,
+    "2013-03": 0.9368,
+    "2013-04": 1.0,
+    "2013-05": 0.9045,
+    "2013-06": 1.0,
+    "2013-07": 1.0,
+    "2013-08": 1.2134,
+    "2013-09": 1.0,
+    "2013-10": 1.0,
+    "2013-11": 1.0749,
+    "2013-12": 1.5323,
+    "2014-01": 1.0,
+    "2014-02": 0.8611,
+    "2014-03": 0.9315,
+    "2014-04": 0.9481,
+    "2014-05": 1.0,
+    "2014-06": 0.9315,
+    "2014-07": 1.2699,
+    "2014-08": 1.0,
+    "2014-09": 1.1045,
+    "2014-10": 0.979,
+    "2014-11": 1.0,
+    "2014-12": 1.3663,
+    "2015-01": 1.0,
+    "2015-02": 0.9948,
+    "2015-03": 0.9683,
+    "2015-04": 1.0,
+    "2015-05": 0.8747,
+    "2015-06": 0.9751,
+    "2015-07": 1.2243,
+    "2015-08": 1.0,
+    "2015-09": 0.8994,
+    "2015-10": 1.1897,
+    "2015-11": 1.0,
+    "2015-12": 1.1087,
+    "2016-01": 1.0719,
+    "2016-02": 0.8257,
+    "2016-03": 1.0,
+    "2016-04": 1.0,
+    "2016-05": 1.0,
+    "2016-06": 0.9611,
+    "2016-07": 1.0291,
+    "2016-08": 1.0,
+    "2016-09": 1.0305,
+    "2016-10": 0.9393,
+    "2016-11": 0.878,
+    "2016-12": 1.3158,
+    "2017-01": 1.0,
+    "2017-02": 0.7774,
+    "2017-03": 1.0,
+    "2017-04": 0.9078,
+    "2017-05": 1.0,
+    "2017-06": 1.0335,
+    "2017-07": 1.0848,
+    "2017-08": 1.0,
+    "2017-09": 0.963,
+    "2017-10": 1.0,
+    "2017-11": 1.0,
+    "2017-12": 1.2284,
+    "2018-01": 1.0531,
+    "2018-02": 0.8767,
+    "2018-03": 1.0,
+    "2018-04": 0.9913,
+    "2018-05": 1.0,
+    "2018-06": 0.9301,
+    "2018-07": 1.0342,
+    "2018-08": 1.0,
+    "2018-09": 0.8705,
+    "2018-10": 1.0,
+    "2018-11": 1.0,
+    "2018-12": 1.2364,
+    "2019-01": 1.1989,
+    "2019-02": 0.9828,
+    "2019-03": 1.0,
+    "2019-04": 1.0,
+    "2019-05": 0.8875,
+    "2019-06": 1.0,
+    "2019-07": 1.2973,
+    "2019-08": 1.0,
+    "2019-09": 0.8592,
+    "2019-10": 0.965,
+    "2019-11": 1.0295,
+    "2019-12": 1.3345,
+    "2020-01": 1.071,
+    "2020-02": 0.8365,
+    "2020-03": 0.7949,
+    "2020-04": 0.9496,
+    "2020-05": 1.123,
+    "2020-06": 1.1329,
+    "2020-07": 1.0,
+    "2020-08": 1.1078,
+    "2020-09": 1.0,
+    "2020-10": 1.0,
+    "2020-11": 0.9065,
+    "2020-12": 1.0,
+    "2021-01": 1.009,
+    "2021-02": 0.9055,
+    "2021-03": 1.0684,
+    "2021-04": 1.0,
+    "2021-05": 1.0,
+    "2021-06": 1.0322,
+    "2021-07": 1.0,
+    "2021-08": 0.9238,
+    "2021-09": 0.9757,
+    "2021-10": 0.9254,
+    "2021-11": 0.8817,
+    "2021-12": 1.0036,
+    "2022-01": 1.1893,
+    "2022-02": 0.9589,
+    "2022-03": 1.0,
+    "2022-04": 0.9907,
+    "2022-05": 1.0,
+    "2022-06": 0.9098,
+    "2022-07": 1.2288,
+    "2022-08": 1.0,
+    "2022-09": 0.9644,
+    "2022-10": 0.9362,
+    "2022-11": 1.0,
+    "2022-12": 1.0268,
+    "2023-01": 1.0539,
+    "2023-02": 0.9635,
+    "2023-03": 0.6083
+  },
+  "category_product_mean_rating": 1.3578,
+  "product_lookup": {
+    "B01G8JO5F2": {
+      "mean_rating": 1.339,
+      "review_count": 1137,
+      "one_star_ratio": 0.661,
+      "complaint_ratio": 0.531
+    },
+    "B075X8471B": {
+      "mean_rating": 1.375,
+      "review_count": 152,
+      "one_star_ratio": 0.625,
+      "complaint_ratio": 0.533
+    },
+    "B01K8B8YA8": {
+      "mean_rating": 1.347,
+      "review_count": 124,
+      "one_star_ratio": 0.653,
+      "complaint_ratio": 0.371
+    },
+    "B010BWYDYA": {
+      "mean_rating": 1.4,
+      "review_count": 115,
+      "one_star_ratio": 0.6,
+      "complaint_ratio": 0.47
+    },
+    "B07S764D9V": {
+      "mean_rating": 1.409,
+      "review_count": 88,
+      "one_star_ratio": 0.591,
+      "complaint_ratio": 0.398
+    },
+    "B08XPWDSWW": {
+      "mean_rating": 1.427,
+      "review_count": 82,
+      "one_star_ratio": 0.573,
+      "complaint_ratio": 0.524
+    },
+    "B07GZFM1ZM": {
+      "mean_rating": 1.264,
+      "review_count": 72,
+      "one_star_ratio": 0.736,
+      "complaint_ratio": 0.389
+    },
+    "B07P374FF3": {
+      "mean_rating": 1.493,
+      "review_count": 67,
+      "one_star_ratio": 0.507,
+      "complaint_ratio": 0.552
+    },
+    "B0BWD4WGJB": {
+      "mean_rating": 1.269,
+      "review_count": 67,
+      "one_star_ratio": 0.731,
+      "complaint_ratio": 0.313
+    },
+    "B01MTF2Z37": {
+      "mean_rating": 1.317,
+      "review_count": 63,
+      "one_star_ratio": 0.683,
+      "complaint_ratio": 0.587
+    },
+    "B07VTK654B": {
+      "mean_rating": 1.379,
+      "review_count": 58,
+      "one_star_ratio": 0.621,
+      "complaint_ratio": 0.397
+    },
+    "B001OC5JKY": {
+      "mean_rating": 1.439,
+      "review_count": 57,
+      "one_star_ratio": 0.561,
+      "complaint_ratio": 0.561
+    },
+    "B0791TX5P5": {
+      "mean_rating": 1.281,
+      "review_count": 57,
+      "one_star_ratio": 0.719,
+      "complaint_ratio": 0.667
+    },
+    "B08F6GPRH6": {
+      "mean_rating": 1.281,
+      "review_count": 57,
+      "one_star_ratio": 0.719,
+      "complaint_ratio": 0.596
+    },
+    "B0BW4PFM58": {
+      "mean_rating": 1.579,
+      "review_count": 57,
+      "one_star_ratio": 0.421,
+      "complaint_ratio": 0.509
+    },
+    "B07J2FGZSM": {
+      "mean_rating": 1.611,
+      "review_count": 54,
+      "one_star_ratio": 0.389,
+      "complaint_ratio": 0.704
+    },
+    "B00L0YLRUW": {
+      "mean_rating": 1.245,
+      "review_count": 53,
+      "one_star_ratio": 0.755,
+      "complaint_ratio": 0.34
+    },
+    "B07N8VFFNS": {
+      "mean_rating": 1.434,
+      "review_count": 53,
+      "one_star_ratio": 0.566,
+      "complaint_ratio": 0.679
+    },
+    "B07H65KP63": {
+      "mean_rating": 1.312,
+      "review_count": 48,
+      "one_star_ratio": 0.688,
+      "complaint_ratio": 0.375
+    },
+    "B00CX5P8FC": {
+      "mean_rating": 1.5,
+      "review_count": 46,
+      "one_star_ratio": 0.5,
+      "complaint_ratio": 0.326
+    },
+    "B08F1P3BCC": {
+      "mean_rating": 1.548,
+      "review_count": 42,
+      "one_star_ratio": 0.452,
+      "complaint_ratio": 0.31
+    },
+    "B07456BG8N": {
+      "mean_rating": 1.439,
+      "review_count": 41,
+      "one_star_ratio": 0.561,
+      "complaint_ratio": 0.415
+    },
+    "B08RLW7918": {
+      "mean_rating": 1.341,
+      "review_count": 41,
+      "one_star_ratio": 0.659,
+      "complaint_ratio": 0.463
+    },
+    "B09G3MBH6V": {
+      "mean_rating": 1.195,
+      "review_count": 41,
+      "one_star_ratio": 0.805,
+      "complaint_ratio": 0.683
+    },
+    "B00R92CL5E": {
+      "mean_rating": 1.263,
+      "review_count": 38,
+      "one_star_ratio": 0.737,
+      "complaint_ratio": 0.316
+    },
+    "B07F4P3JH7": {
+      "mean_rating": 1.316,
+      "review_count": 38,
+      "one_star_ratio": 0.684,
+      "complaint_ratio": 0.421
+    },
+    "B07PHQ93TV": {
+      "mean_rating": 1.342,
+      "review_count": 38,
+      "one_star_ratio": 0.658,
+      "complaint_ratio": 0.5
+    },
+    "B08WJSHSLC": {
+      "mean_rating": 1.237,
+      "review_count": 38,
+      "one_star_ratio": 0.763,
+      "complaint_ratio": 0.553
+    },
+    "B07KTYJ769": {
+      "mean_rating": 1.243,
+      "review_count": 37,
+      "one_star_ratio": 0.757,
+      "complaint_ratio": 0.405
+    },
+    "B08XNCHTCY": {
+      "mean_rating": 1.351,
+      "review_count": 37,
+      "one_star_ratio": 0.649,
+      "complaint_ratio": 0.459
+    },
+    "B0BS2TMK39": {
+      "mean_rating": 1.216,
+      "review_count": 37,
+      "one_star_ratio": 0.784,
+      "complaint_ratio": 0.351
+    },
+    "B00N2ZDXW2": {
+      "mean_rating": 1.389,
+      "review_count": 36,
+      "one_star_ratio": 0.611,
+      "complaint_ratio": 0.5
+    },
+    "B0001FTVEK": {
+      "mean_rating": 1.412,
+      "review_count": 34,
+      "one_star_ratio": 0.588,
+      "complaint_ratio": 0.588
+    },
+    "B00NWXM5U0": {
+      "mean_rating": 1.394,
+      "review_count": 33,
+      "one_star_ratio": 0.606,
+      "complaint_ratio": 0.606
+    },
+    "B00OQVZDJM": {
+      "mean_rating": 1.406,
+      "review_count": 32,
+      "one_star_ratio": 0.594,
+      "complaint_ratio": 0.5
+    },
+    "B01BRWH8G8": {
+      "mean_rating": 1.5,
+      "review_count": 32,
+      "one_star_ratio": 0.5,
+      "complaint_ratio": 0.438
+    },
+    "B07HZLHPKP": {
+      "mean_rating": 1.438,
+      "review_count": 32,
+      "one_star_ratio": 0.562,
+      "complaint_ratio": 0.25
+    },
+    "B0BM2YG2K7": {
+      "mean_rating": 1.219,
+      "review_count": 32,
+      "one_star_ratio": 0.781,
+      "complaint_ratio": 0.594
+    },
+    "B00U3FPN4U": {
+      "mean_rating": 1.613,
+      "review_count": 31,
+      "one_star_ratio": 0.387,
+      "complaint_ratio": 0.548
+    },
+    "B011BRUOMO": {
+      "mean_rating": 1.2,
+      "review_count": 30,
+      "one_star_ratio": 0.8,
+      "complaint_ratio": 0.533
+    },
+    "B072QLXK2T": {
+      "mean_rating": 1.367,
+      "review_count": 30,
+      "one_star_ratio": 0.633,
+      "complaint_ratio": 0.767
+    },
+    "B0046EDOWW": {
+      "mean_rating": 1.483,
+      "review_count": 29,
+      "one_star_ratio": 0.517,
+      "complaint_ratio": 0.586
+    },
+    "B00BWF5U0M": {
+      "mean_rating": 1.207,
+      "review_count": 29,
+      "one_star_ratio": 0.793,
+      "complaint_ratio": 0.621
+    },
+    "B00IF70T4M": {
+      "mean_rating": 1.276,
+      "review_count": 29,
+      "one_star_ratio": 0.724,
+      "complaint_ratio": 0.345
+    },
+    "B08M8Y6473": {
+      "mean_rating": 1.414,
+      "review_count": 29,
+      "one_star_ratio": 0.586,
+      "complaint_ratio": 0.621
+    },
+    "B00ZVJAF9G": {
+      "mean_rating": 1.429,
+      "review_count": 28,
+      "one_star_ratio": 0.571,
+      "complaint_ratio": 0.393
+    },
+    "B01M3ULMWP": {
+      "mean_rating": 1.357,
+      "review_count": 28,
+      "one_star_ratio": 0.643,
+      "complaint_ratio": 0.607
+    },
+    "B07TMJ8S5Z": {
+      "mean_rating": 1.286,
+      "review_count": 28,
+      "one_star_ratio": 0.714,
+      "complaint_ratio": 0.607
+    },
+    "B0C211KFK4": {
+      "mean_rating": 1.25,
+      "review_count": 28,
+      "one_star_ratio": 0.75,
+      "complaint_ratio": 0.321
+    },
+    "B008KVUAGU": {
+      "mean_rating": 1.556,
+      "review_count": 27,
+      "one_star_ratio": 0.444,
+      "complaint_ratio": 0.444
+    },
+    "B07G5ZG3Q4": {
+      "mean_rating": 1.407,
+      "review_count": 27,
+      "one_star_ratio": 0.593,
+      "complaint_ratio": 0.741
+    },
+    "B07N86MCD2": {
+      "mean_rating": 1.296,
+      "review_count": 27,
+      "one_star_ratio": 0.704,
+      "complaint_ratio": 0.593
+    },
+    "B08YF1VBYD": {
+      "mean_rating": 1.444,
+      "review_count": 27,
+      "one_star_ratio": 0.556,
+      "complaint_ratio": 0.519
+    },
+    "B0B4SWZTZ1": {
+      "mean_rating": 1.37,
+      "review_count": 27,
+      "one_star_ratio": 0.63,
+      "complaint_ratio": 0.667
+    },
+    "B0BL6788GP": {
+      "mean_rating": 1.296,
+      "review_count": 27,
+      "one_star_ratio": 0.704,
+      "complaint_ratio": 0.444
+    },
+    "B0BS1QXF6M": {
+      "mean_rating": 1.333,
+      "review_count": 27,
+      "one_star_ratio": 0.667,
+      "complaint_ratio": 0.444
+    },
+    "B07454F4JH": {
+      "mean_rating": 1.231,
+      "review_count": 26,
+      "one_star_ratio": 0.769,
+      "complaint_ratio": 0.5
+    },
+    "B0C1J4XGB1": {
+      "mean_rating": 1.346,
+      "review_count": 26,
+      "one_star_ratio": 0.654,
+      "complaint_ratio": 0.654
+    },
+    "B0051VVOB2": {
+      "mean_rating": 1.28,
+      "review_count": 25,
+      "one_star_ratio": 0.72,
+      "complaint_ratio": 0.64
+    },
+    "B008GVOVK0": {
+      "mean_rating": 1.24,
+      "review_count": 25,
+      "one_star_ratio": 0.76,
+      "complaint_ratio": 0.48
+    },
+    "B083TH1B45": {
+      "mean_rating": 1.48,
+      "review_count": 25,
+      "one_star_ratio": 0.52,
+      "complaint_ratio": 0.4
+    },
+    "B07PXGQC1Q": {
+      "mean_rating": 1.292,
+      "review_count": 24,
+      "one_star_ratio": 0.708,
+      "complaint_ratio": 0.625
+    },
+    "B0BS1615YC": {
+      "mean_rating": 1.5,
+      "review_count": 24,
+      "one_star_ratio": 0.5,
+      "complaint_ratio": 0.458
+    },
+    "B001FWYGJS": {
+      "mean_rating": 1.391,
+      "review_count": 23,
+      "one_star_ratio": 0.609,
+      "complaint_ratio": 0.435
+    },
+    "B0043T7FXE": {
+      "mean_rating": 1.348,
+      "review_count": 23,
+      "one_star_ratio": 0.652,
+      "complaint_ratio": 0.435
+    },
+    "B00BIFNTMC": {
+      "mean_rating": 1.348,
+      "review_count": 23,
+      "one_star_ratio": 0.652,
+      "complaint_ratio": 0.478
+    },
+    "B075JZNHTD": {
+      "mean_rating": 1.217,
+      "review_count": 23,
+      "one_star_ratio": 0.783,
+      "complaint_ratio": 0.522
+    },
+    "B004OVECU0": {
+      "mean_rating": 1.545,
+      "review_count": 22,
+      "one_star_ratio": 0.455,
+      "complaint_ratio": 0.545
+    },
+    "B01J94SWWU": {
+      "mean_rating": 1.5,
+      "review_count": 22,
+      "one_star_ratio": 0.5,
+      "complaint_ratio": 0.455
+    },
+    "B07GXDLJP9": {
+      "mean_rating": 1.364,
+      "review_count": 22,
+      "one_star_ratio": 0.636,
+      "complaint_ratio": 0.591
+    },
+    "B07PHB491R": {
+      "mean_rating": 1.273,
+      "review_count": 22,
+      "one_star_ratio": 0.727,
+      "complaint_ratio": 0.409
+    },
+    "B08V47HYBW": {
+      "mean_rating": 1.545,
+      "review_count": 22,
+      "one_star_ratio": 0.455,
+      "complaint_ratio": 0.5
+    },
+    "B00PKTU83U": {
+      "mean_rating": 1.667,
+      "review_count": 21,
+      "one_star_ratio": 0.333,
+      "complaint_ratio": 0.286
+    },
+    "B07VXXBTX4": {
+      "mean_rating": 1.381,
+      "review_count": 21,
+      "one_star_ratio": 0.619,
+      "complaint_ratio": 0.238
+    },
+    "B09S6ZWPS5": {
+      "mean_rating": 1.381,
+      "review_count": 21,
+      "one_star_ratio": 0.619,
+      "complaint_ratio": 0.476
+    },
+    "B0BHMVBV9M": {
+      "mean_rating": 1.286,
+      "review_count": 21,
+      "one_star_ratio": 0.714,
+      "complaint_ratio": 0.571
+    },
+    "B0BZJZKYST": {
+      "mean_rating": 1.286,
+      "review_count": 21,
+      "one_star_ratio": 0.714,
+      "complaint_ratio": 0.429
+    },
+    "B0C72D4J46": {
+      "mean_rating": 1.429,
+      "review_count": 21,
+      "one_star_ratio": 0.571,
+      "complaint_ratio": 0.619
+    },
+    "B01A08E70K": {
+      "mean_rating": 1.4,
+      "review_count": 20,
+      "one_star_ratio": 0.6,
+      "complaint_ratio": 0.3
+    },
+    "B092HSPZJ3": {
+      "mean_rating": 1.35,
+      "review_count": 20,
+      "one_star_ratio": 0.65,
+      "complaint_ratio": 0.4
+    },
+    "B0963TH5MF": {
+      "mean_rating": 1.25,
+      "review_count": 20,
+      "one_star_ratio": 0.75,
+      "complaint_ratio": 0.25
+    },
+    "B09V28P31X": {
+      "mean_rating": 1.1,
+      "review_count": 20,
+      "one_star_ratio": 0.9,
+      "complaint_ratio": 0.5
+    },
+    "B0BN74ZJDK": {
+      "mean_rating": 1.35,
+      "review_count": 20,
+      "one_star_ratio": 0.65,
+      "complaint_ratio": 0.35
+    },
+    "B0C5MBN688": {
+      "mean_rating": 1.4,
+      "review_count": 20,
+      "one_star_ratio": 0.6,
+      "complaint_ratio": 0.5
+    },
+    "B00LWHUBPO": {
+      "mean_rating": 1.211,
+      "review_count": 19,
+      "one_star_ratio": 0.789,
+      "complaint_ratio": 0.474
+    },
+    "B00UWV8JLY": {
+      "mean_rating": 1.368,
+      "review_count": 19,
+      "one_star_ratio": 0.632,
+      "complaint_ratio": 0.526
+    },
+    "B0117U82EM": {
+      "mean_rating": 1.474,
+      "review_count": 19,
+      "one_star_ratio": 0.526,
+      "complaint_ratio": 0.684
+    },
+    "B014YN7LVE": {
+      "mean_rating": 1.263,
+      "review_count": 19,
+      "one_star_ratio": 0.737,
+      "complaint_ratio": 0.368
+    },
+    "B01KIOU4EO": {
+      "mean_rating": 1.474,
+      "review_count": 19,
+      "one_star_ratio": 0.526,
+      "complaint_ratio": 0.526
+    },
+    "B07HRFLB6Y": {
+      "mean_rating": 1.368,
+      "review_count": 19,
+      "one_star_ratio": 0.632,
+      "complaint_ratio": 0.368
+    },
+    "B08K2S5B88": {
+      "mean_rating": 1.421,
+      "review_count": 19,
+      "one_star_ratio": 0.579,
+      "complaint_ratio": 0.421
+    },
+    "B0B6D4W3R7": {
+      "mean_rating": 1.158,
+      "review_count": 19,
+      "one_star_ratio": 0.842,
+      "complaint_ratio": 0.579
+    },
+    "B0BS6KLLT1": {
+      "mean_rating": 1.526,
+      "review_count": 19,
+      "one_star_ratio": 0.474,
+      "complaint_ratio": 0.684
+    },
+    "B0BSF17PM2": {
+      "mean_rating": 1.211,
+      "review_count": 19,
+      "one_star_ratio": 0.789,
+      "complaint_ratio": 0.632
+    },
+    "B003NR57BY": {
+      "mean_rating": 1.444,
+      "review_count": 18,
+      "one_star_ratio": 0.556,
+      "complaint_ratio": 0.333
+    },
+    "B00E98O7GC": {
+      "mean_rating": 1.222,
+      "review_count": 18,
+      "one_star_ratio": 0.778,
+      "complaint_ratio": 0.556
+    },
+    "B00XHU3354": {
+      "mean_rating": 1.278,
+      "review_count": 18,
+      "one_star_ratio": 0.722,
+      "complaint_ratio": 0.5
+    },
+    "B07324B77V": {
+      "mean_rating": 1.389,
+      "review_count": 18,
+      "one_star_ratio": 0.611,
+      "complaint_ratio": 0.556
+    },
+    "B074TC662N": {
+      "mean_rating": 1.222,
+      "review_count": 18,
+      "one_star_ratio": 0.778,
+      "complaint_ratio": 0.556
+    },
+    "B07BSJCMGS": {
+      "mean_rating": 1.333,
+      "review_count": 18,
+      "one_star_ratio": 0.667,
+      "complaint_ratio": 0.5
+    },
+    "B07CLBNM1C": {
+      "mean_rating": 1.444,
+      "review_count": 18,
+      "one_star_ratio": 0.556,
+      "complaint_ratio": 0.722
+    },
+    "B081JCY2H4": {
+      "mean_rating": 1.222,
+      "review_count": 18,
+      "one_star_ratio": 0.778,
+      "complaint_ratio": 0.722
+    },
+    "B0C1VP1GGK": {
+      "mean_rating": 1.389,
+      "review_count": 18,
+      "one_star_ratio": 0.611,
+      "complaint_ratio": 0.556
+    },
+    "B003VANOFY": {
+      "mean_rating": 1.471,
+      "review_count": 17,
+      "one_star_ratio": 0.529,
+      "complaint_ratio": 0.647
+    },
+    "B0087NZ31S": {
+      "mean_rating": 1.235,
+      "review_count": 17,
+      "one_star_ratio": 0.765,
+      "complaint_ratio": 0.588
+    },
+    "B00BONB8FS": {
+      "mean_rating": 1.529,
+      "review_count": 17,
+      "one_star_ratio": 0.471,
+      "complaint_ratio": 0.471
+    },
+    "B00BUSDVBQ": {
+      "mean_rating": 1.294,
+      "review_count": 17,
+      "one_star_ratio": 0.706,
+      "complaint_ratio": 0.412
+    },
+    "B00DGRUY3M": {
+      "mean_rating": 1.471,
+      "review_count": 17,
+      "one_star_ratio": 0.529,
+      "complaint_ratio": 0.412
+    },
+    "B01A0MTS3W": {
+      "mean_rating": 1.294,
+      "review_count": 17,
+      "one_star_ratio": 0.706,
+      "complaint_ratio": 0.529
+    },
+    "B01L3VEC08": {
+      "mean_rating": 1.353,
+      "review_count": 17,
+      "one_star_ratio": 0.647,
+      "complaint_ratio": 0.471
+    },
+    "B01LXJFMGF": {
+      "mean_rating": 1.118,
+      "review_count": 17,
+      "one_star_ratio": 0.882,
+      "complaint_ratio": 0.471
+    },
+    "B01NBTFNVA": {
+      "mean_rating": 1.412,
+      "review_count": 17,
+      "one_star_ratio": 0.588,
+      "complaint_ratio": 0.353
+    },
+    "B07BX4X77P": {
+      "mean_rating": 1.529,
+      "review_count": 17,
+      "one_star_ratio": 0.471,
+      "complaint_ratio": 0.529
+    },
+    "B07FQDMKFT": {
+      "mean_rating": 1.471,
+      "review_count": 17,
+      "one_star_ratio": 0.529,
+      "complaint_ratio": 0.588
+    },
+    "B07NPK4PY4": {
+      "mean_rating": 1.235,
+      "review_count": 17,
+      "one_star_ratio": 0.765,
+      "complaint_ratio": 0.706
+    },
+    "B07Q8N91HW": {
+      "mean_rating": 1.353,
+      "review_count": 17,
+      "one_star_ratio": 0.647,
+      "complaint_ratio": 0.882
+    },
+    "B07ZPC9QD4": {
+      "mean_rating": 1.294,
+      "review_count": 17,
+      "one_star_ratio": 0.706,
+      "complaint_ratio": 0.529
+    },
+    "B08F9ZCTCL": {
+      "mean_rating": 1.118,
+      "review_count": 17,
+      "one_star_ratio": 0.882,
+      "complaint_ratio": 0.529
+    },
+    "B08YFJYD5Z": {
+      "mean_rating": 1.471,
+      "review_count": 17,
+      "one_star_ratio": 0.529,
+      "complaint_ratio": 0.588
+    },
+    "B09KQC7Z4S": {
+      "mean_rating": 1.412,
+      "review_count": 17,
+      "one_star_ratio": 0.588,
+      "complaint_ratio": 0.647
+    },
+    "B09ZQ4GHM8": {
+      "mean_rating": 1.118,
+      "review_count": 17,
+      "one_star_ratio": 0.882,
+      "complaint_ratio": 0.706
+    },
+    "B0BMQN7L6B": {
+      "mean_rating": 1.412,
+      "review_count": 17,
+      "one_star_ratio": 0.588,
+      "complaint_ratio": 0.529
+    },
+    "B00FB50S0Q": {
+      "mean_rating": 1.5,
+      "review_count": 16,
+      "one_star_ratio": 0.5,
+      "complaint_ratio": 0.438
+    },
+    "B00U84SJRO": {
+      "mean_rating": 1.375,
+      "review_count": 16,
+      "one_star_ratio": 0.625,
+      "complaint_ratio": 0.312
+    },
+    "B018SZT3BK": {
+      "mean_rating": 1.5,
+      "review_count": 16,
+      "one_star_ratio": 0.5,
+      "complaint_ratio": 0.875
+    },
+    "B082M94GY9": {
+      "mean_rating": 1.125,
+      "review_count": 16,
+      "one_star_ratio": 0.875,
+      "complaint_ratio": 0.688
+    },
+    "B083ZJYDRV": {
+      "mean_rating": 1.375,
+      "review_count": 16,
+      "one_star_ratio": 0.625,
+      "complaint_ratio": 0.375
+    },
+    "B088PZR86K": {
+      "mean_rating": 1.125,
+      "review_count": 16,
+      "one_star_ratio": 0.875,
+      "complaint_ratio": 0.625
+    },
+    "B089PMMT1X": {
+      "mean_rating": 1.188,
+      "review_count": 16,
+      "one_star_ratio": 0.812,
+      "complaint_ratio": 0.812
+    },
+    "B08PFW1S1V": {
+      "mean_rating": 1.5,
+      "review_count": 16,
+      "one_star_ratio": 0.5,
+      "complaint_ratio": 0.688
+    },
+    "B08XVF418R": {
+      "mean_rating": 1.375,
+      "review_count": 16,
+      "one_star_ratio": 0.625,
+      "complaint_ratio": 0.25
+    },
+    "B0BGS23YKX": {
+      "mean_rating": 1.188,
+      "review_count": 16,
+      "one_star_ratio": 0.812,
+      "complaint_ratio": 0.5
+    },
+    "B0000BYDKO": {
+      "mean_rating": 1.467,
+      "review_count": 15,
+      "one_star_ratio": 0.533,
+      "complaint_ratio": 0.133
+    },
+    "B003TG75EG": {
+      "mean_rating": 1.333,
+      "review_count": 15,
+      "one_star_ratio": 0.667,
+      "complaint_ratio": 0.533
+    },
+    "B004OB0EBQ": {
+      "mean_rating": 1.4,
+      "review_count": 15,
+      "one_star_ratio": 0.6,
+      "complaint_ratio": 0.467
+    },
+    "B01CW4AR9K": {
+      "mean_rating": 1.4,
+      "review_count": 15,
+      "one_star_ratio": 0.6,
+      "complaint_ratio": 0.467
+    },
+    "B06VX1PKQ7": {
+      "mean_rating": 1.2,
+      "review_count": 15,
+      "one_star_ratio": 0.8,
+      "complaint_ratio": 0.467
+    },
+    "B078XDLDNM": {
+      "mean_rating": 1.067,
+      "review_count": 15,
+      "one_star_ratio": 0.933,
+      "complaint_ratio": 0.333
+    },
+    "B07FCHTPJ4": {
+      "mean_rating": 1.2,
+      "review_count": 15,
+      "one_star_ratio": 0.8,
+      "complaint_ratio": 0.733
+    },
+    "B07VHQW6F3": {
+      "mean_rating": 1.467,
+      "review_count": 15,
+      "one_star_ratio": 0.533,
+      "complaint_ratio": 0.467
+    },
+    "B07W36WN5X": {
+      "mean_rating": 1.333,
+      "review_count": 15,
+      "one_star_ratio": 0.667,
+      "complaint_ratio": 0.4
+    },
+    "B09N72XPK3": {
+      "mean_rating": 1.333,
+      "review_count": 15,
+      "one_star_ratio": 0.667,
+      "complaint_ratio": 0.667
+    },
+    "B0B933F7G2": {
+      "mean_rating": 1.333,
+      "review_count": 15,
+      "one_star_ratio": 0.667,
+      "complaint_ratio": 0.4
+    },
+    "B0BZ5KPQZK": {
+      "mean_rating": 1.333,
+      "review_count": 15,
+      "one_star_ratio": 0.667,
+      "complaint_ratio": 0.667
+    },
+    "B0053DDNW6": {
+      "mean_rating": 1.286,
+      "review_count": 14,
+      "one_star_ratio": 0.714,
+      "complaint_ratio": 0.714
+    },
+    "B008J0Z9TA": {
+      "mean_rating": 1.071,
+      "review_count": 14,
+      "one_star_ratio": 0.929,
+      "complaint_ratio": 0.714
+    },
+    "B00IVPU7AO": {
+      "mean_rating": 1.071,
+      "review_count": 14,
+      "one_star_ratio": 0.929,
+      "complaint_ratio": 0.429
+    },
+    "B00RFLXE0A": {
+      "mean_rating": 1.286,
+      "review_count": 14,
+      "one_star_ratio": 0.714,
+      "complaint_ratio": 0.571
+    },
+    "B01M0GB8CC": {
+      "mean_rating": 1.286,
+      "review_count": 14,
+      "one_star_ratio": 0.714,
+      "complaint_ratio": 0.5
+    },
+    "B01M4NU4OM": {
+      "mean_rating": 1.214,
+      "review_count": 14,
+      "one_star_ratio": 0.786,
+      "complaint_ratio": 0.643
+    },
+    "B01N9O3UTF": {
+      "mean_rating": 1.214,
+      "review_count": 14,
+      "one_star_ratio": 0.786,
+      "complaint_ratio": 0.357
+    },
+    "B0771VF9TJ": {
+      "mean_rating": 1.357,
+      "review_count": 14,
+      "one_star_ratio": 0.643,
+      "complaint_ratio": 0.571
+    },
+    "B0791T9CV7": {
+      "mean_rating": 1.214,
+      "review_count": 14,
+      "one_star_ratio": 0.786,
+      "complaint_ratio": 0.429
+    },
+    "B07F4MYW5B": {
+      "mean_rating": 1.714,
+      "review_count": 14,
+      "one_star_ratio": 0.286,
+      "complaint_ratio": 0.571
+    },
+    "B08DMXDPW5": {
+      "mean_rating": 1.429,
+      "review_count": 14,
+      "one_star_ratio": 0.571,
+      "complaint_ratio": 0.357
+    },
+    "B08GLRVD95": {
+      "mean_rating": 1.5,
+      "review_count": 14,
+      "one_star_ratio": 0.5,
+      "complaint_ratio": 0.643
+    },
+    "B08RD8K7ZG": {
+      "mean_rating": 1.214,
+      "review_count": 14,
+      "one_star_ratio": 0.786,
+      "complaint_ratio": 0.571
+    },
+    "B09BDX2C9X": {
+      "mean_rating": 1.429,
+      "review_count": 14,
+      "one_star_ratio": 0.571,
+      "complaint_ratio": 0.5
+    },
+    "B09MPKCQGT": {
+      "mean_rating": 1.286,
+      "review_count": 14,
+      "one_star_ratio": 0.714,
+      "complaint_ratio": 0.571
+    },
+    "B09Y54MQWT": {
+      "mean_rating": 1.286,
+      "review_count": 14,
+      "one_star_ratio": 0.714,
+      "complaint_ratio": 0.5
+    },
+    "B0BK6SGHHB": {
+      "mean_rating": 1.714,
+      "review_count": 14,
+      "one_star_ratio": 0.286,
+      "complaint_ratio": 0.429
+    },
+    "B0C6T21J5V": {
+      "mean_rating": 1.143,
+      "review_count": 14,
+      "one_star_ratio": 0.857,
+      "complaint_ratio": 0.5
+    },
+    "B0CCD3VDQN": {
+      "mean_rating": 1.286,
+      "review_count": 14,
+      "one_star_ratio": 0.714,
+      "complaint_ratio": 0.5
+    },
+    "B000HKGK8Y": {
+      "mean_rating": 1.462,
+      "review_count": 13,
+      "one_star_ratio": 0.538,
+      "complaint_ratio": 0.308
+    },
+    "B0044YU60M": {
+      "mean_rating": 1.308,
+      "review_count": 13,
+      "one_star_ratio": 0.692,
+      "complaint_ratio": 0.615
+    },
+    "B00F0DD0I6": {
+      "mean_rating": 1.538,
+      "review_count": 13,
+      "one_star_ratio": 0.462,
+      "complaint_ratio": 0.538
+    },
+    "B00IF70QCW": {
+      "mean_rating": 1.385,
+      "review_count": 13,
+      "one_star_ratio": 0.615,
+      "complaint_ratio": 0.462
+    },
+    "B00X3TUHWG": {
+      "mean_rating": 1.462,
+      "review_count": 13,
+      "one_star_ratio": 0.538,
+      "complaint_ratio": 0.538
+    },
+    "B01C4UY0JK": {
+      "mean_rating": 1.385,
+      "review_count": 13,
+      "one_star_ratio": 0.615,
+      "complaint_ratio": 0.462
+    },
+    "B01DDIAX1Q": {
+      "mean_rating": 1.231,
+      "review_count": 13,
+      "one_star_ratio": 0.769,
+      "complaint_ratio": 0.462
+    },
+    "B01K1IO3QW": {
+      "mean_rating": 1.077,
+      "review_count": 13,
+      "one_star_ratio": 0.923,
+      "complaint_ratio": 0.692
+    },
+    "B01MQMJFDK": {
+      "mean_rating": 1.308,
+      "review_count": 13,
+      "one_star_ratio": 0.692,
+      "complaint_ratio": 0.462
+    },
+    "B07CBSSNXG": {
+      "mean_rating": 1.385,
+      "review_count": 13,
+      "one_star_ratio": 0.615,
+      "complaint_ratio": 0.462
+    },
+    "B07H5S7X4X": {
+      "mean_rating": 1.154,
+      "review_count": 13,
+      "one_star_ratio": 0.846,
+      "complaint_ratio": 0.615
+    },
+    "B07H8WS1FT": {
+      "mean_rating": 1.308,
+      "review_count": 13,
+      "one_star_ratio": 0.692,
+      "complaint_ratio": 0.615
+    },
+    "B07KGVB6D6": {
+      "mean_rating": 1.462,
+      "review_count": 13,
+      "one_star_ratio": 0.538,
+      "complaint_ratio": 0.538
+    },
+    "B07MLY3JKV": {
+      "mean_rating": 1.692,
+      "review_count": 13,
+      "one_star_ratio": 0.308,
+      "complaint_ratio": 0.231
+    },
+    "B07NGRTX9C": {
+      "mean_rating": 1.692,
+      "review_count": 13,
+      "one_star_ratio": 0.308,
+      "complaint_ratio": 0.231
+    },
+    "B07R8L532P": {
+      "mean_rating": 1.538,
+      "review_count": 13,
+      "one_star_ratio": 0.462,
+      "complaint_ratio": 0.692
+    },
+    "B07ZCVQQ52": {
+      "mean_rating": 1.385,
+      "review_count": 13,
+      "one_star_ratio": 0.615,
+      "complaint_ratio": 0.308
+    },
+    "B081C4XWXZ": {
+      "mean_rating": 1.385,
+      "review_count": 13,
+      "one_star_ratio": 0.615,
+      "complaint_ratio": 0.385
+    },
+    "B0864SF4GC": {
+      "mean_rating": 1.385,
+      "review_count": 13,
+      "one_star_ratio": 0.615,
+      "complaint_ratio": 0.462
+    },
+    "B08DPP3T9Z": {
+      "mean_rating": 1.462,
+      "review_count": 13,
+      "one_star_ratio": 0.538,
+      "complaint_ratio": 0.154
+    },
+    "B09M8N7YML": {
+      "mean_rating": 1.154,
+      "review_count": 13,
+      "one_star_ratio": 0.846,
+      "complaint_ratio": 0.923
+    },
+    "B09P4KJSTQ": {
+      "mean_rating": 1.538,
+      "review_count": 13,
+      "one_star_ratio": 0.462,
+      "complaint_ratio": 0.615
+    },
+    "B09RS2KZK4": {
+      "mean_rating": 1.231,
+      "review_count": 13,
+      "one_star_ratio": 0.769,
+      "complaint_ratio": 0.615
+    },
+    "B09RZDNN93": {
+      "mean_rating": 1.231,
+      "review_count": 13,
+      "one_star_ratio": 0.769,
+      "complaint_ratio": 0.385
+    },
+    "B0BVY4JVNG": {
+      "mean_rating": 1.231,
+      "review_count": 13,
+      "one_star_ratio": 0.769,
+      "complaint_ratio": 0.308
+    },
+    "B0C38JGJW3": {
+      "mean_rating": 1.308,
+      "review_count": 13,
+      "one_star_ratio": 0.692,
+      "complaint_ratio": 0.692
+    },
+    "B002HWRJBM": {
+      "mean_rating": 1.833,
+      "review_count": 12,
+      "one_star_ratio": 0.167,
+      "complaint_ratio": 0.667
+    },
+    "B003VAHYNC": {
+      "mean_rating": 1.583,
+      "review_count": 12,
+      "one_star_ratio": 0.417,
+      "complaint_ratio": 0.417
+    },
+    "B006GWO5WK": {
+      "mean_rating": 1.417,
+      "review_count": 12,
+      "one_star_ratio": 0.583,
+      "complaint_ratio": 0.333
+    },
+    "B0093162RM": {
+      "mean_rating": 1.417,
+      "review_count": 12,
+      "one_star_ratio": 0.583,
+      "complaint_ratio": 0.583
+    },
+    "B0095PZHPE": {
+      "mean_rating": 1.333,
+      "review_count": 12,
+      "one_star_ratio": 0.667,
+      "complaint_ratio": 0.417
+    },
+    "B00BGO0QEO": {
+      "mean_rating": 1.25,
+      "review_count": 12,
+      "one_star_ratio": 0.75,
+      "complaint_ratio": 0.667
+    },
+    "B00D38XF6M": {
+      "mean_rating": 1.5,
+      "review_count": 12,
+      "one_star_ratio": 0.5,
+      "complaint_ratio": 0.75
+    },
+    "B00E1CRC86": {
+      "mean_rating": 1.667,
+      "review_count": 12,
+      "one_star_ratio": 0.333,
+      "complaint_ratio": 0.417
+    },
+    "B00HSMK59E": {
+      "mean_rating": 1.583,
+      "review_count": 12,
+      "one_star_ratio": 0.417,
+      "complaint_ratio": 0.5
+    },
+    "B00PN377C8": {
+      "mean_rating": 1.25,
+      "review_count": 12,
+      "one_star_ratio": 0.75,
+      "complaint_ratio": 0.5
+    },
+    "B01BH83OOM": {
+      "mean_rating": 1.417,
+      "review_count": 12,
+      "one_star_ratio": 0.583,
+      "complaint_ratio": 0.75
+    },
+    "B01F9RH0R4": {
+      "mean_rating": 1.417,
+      "review_count": 12,
+      "one_star_ratio": 0.583,
+      "complaint_ratio": 0.5
+    },
+    "B01GJ3TPCU": {
+      "mean_rating": 1.167,
+      "review_count": 12,
+      "one_star_ratio": 0.833,
+      "complaint_ratio": 0.667
+    },
+    "B01LW71IBJ": {
+      "mean_rating": 1.333,
+      "review_count": 12,
+      "one_star_ratio": 0.667,
+      "complaint_ratio": 0.417
+    },
+    "B06XHWWJRW": {
+      "mean_rating": 1.25,
+      "review_count": 12,
+      "one_star_ratio": 0.75,
+      "complaint_ratio": 0.667
+    },
+    "B073JYC4XM": {
+      "mean_rating": 1.0,
+      "review_count": 12,
+      "one_star_ratio": 1.0,
+      "complaint_ratio": 0.833
+    },
+    "B075JB46XP": {
+      "mean_rating": 1.333,
+      "review_count": 12,
+      "one_star_ratio": 0.667,
+      "complaint_ratio": 0.583
+    },
+    "B076V5CGJ4": {
+      "mean_rating": 1.25,
+      "review_count": 12,
+      "one_star_ratio": 0.75,
+      "complaint_ratio": 0.75
+    },
+    "B079BZQ987": {
+      "mean_rating": 1.417,
+      "review_count": 12,
+      "one_star_ratio": 0.583,
+      "complaint_ratio": 0.417
+    },
+    "B07DC4PZC4": {
+      "mean_rating": 1.167,
+      "review_count": 12,
+      "one_star_ratio": 0.833,
+      "complaint_ratio": 0.5
+    },
+    "B07GTGHQHB": {
+      "mean_rating": 1.5,
+      "review_count": 12,
+      "one_star_ratio": 0.5,
+      "complaint_ratio": 0.417
+    },
+    "B07PWCN4LC": {
+      "mean_rating": 1.333,
+      "review_count": 12,
+      "one_star_ratio": 0.667,
+      "complaint_ratio": 0.667
+    },
+    "B07RCMTLHD": {
+      "mean_rating": 1.583,
+      "review_count": 12,
+      "one_star_ratio": 0.417,
+      "complaint_ratio": 0.25
+    },
+    "B07S6X2D8C": {
+      "mean_rating": 1.333,
+      "review_count": 12,
+      "one_star_ratio": 0.667,
+      "complaint_ratio": 0.583
+    },
+    "B07WMB4XS4": {
+      "mean_rating": 1.25,
+      "review_count": 12,
+      "one_star_ratio": 0.75,
+      "complaint_ratio": 0.5
+    },
+    "B084H2NHNN": {
+      "mean_rating": 1.333,
+      "review_count": 12,
+      "one_star_ratio": 0.667,
+      "complaint_ratio": 0.583
+    },
+    "B08J91XPGV": {
+      "mean_rating": 1.25,
+      "review_count": 12,
+      "one_star_ratio": 0.75,
+      "complaint_ratio": 0.667
+    },
+    "B08KZ1TZYB": {
+      "mean_rating": 1.167,
+      "review_count": 12,
+      "one_star_ratio": 0.833,
+      "complaint_ratio": 0.167
+    },
+    "B08Q2D3XR1": {
+      "mean_rating": 1.5,
+      "review_count": 12,
+      "one_star_ratio": 0.5,
+      "complaint_ratio": 0.75
+    },
+    "B092WHC7C1": {
+      "mean_rating": 1.5,
+      "review_count": 12,
+      "one_star_ratio": 0.5,
+      "complaint_ratio": 0.5
+    },
+    "B0935ZDCYD": {
+      "mean_rating": 1.583,
+      "review_count": 12,
+      "one_star_ratio": 0.417,
+      "complaint_ratio": 0.417
+    },
+    "B099RZY28N": {
+      "mean_rating": 1.25,
+      "review_count": 12,
+      "one_star_ratio": 0.75,
+      "complaint_ratio": 0.167
+    },
+    "B09LYWCHJX": {
+      "mean_rating": 1.25,
+      "review_count": 12,
+      "one_star_ratio": 0.75,
+      "complaint_ratio": 0.5
+    },
+    "B0B62FJF1J": {
+      "mean_rating": 1.333,
+      "review_count": 12,
+      "one_star_ratio": 0.667,
+      "complaint_ratio": 0.667
+    },
+    "B0B6QVY9VB": {
+      "mean_rating": 1.167,
+      "review_count": 12,
+      "one_star_ratio": 0.833,
+      "complaint_ratio": 0.75
+    },
+    "B0BBMLD8QT": {
+      "mean_rating": 1.5,
+      "review_count": 12,
+      "one_star_ratio": 0.5,
+      "complaint_ratio": 0.333
+    },
+    "B0BHWYQ47Y": {
+      "mean_rating": 1.583,
+      "review_count": 12,
+      "one_star_ratio": 0.417,
+      "complaint_ratio": 0.583
+    },
+    "B0BVBDXFHM": {
+      "mean_rating": 1.417,
+      "review_count": 12,
+      "one_star_ratio": 0.583,
+      "complaint_ratio": 0.583
+    },
+    "B0BXM18YDP": {
+      "mean_rating": 1.25,
+      "review_count": 12,
+      "one_star_ratio": 0.75,
+      "complaint_ratio": 0.5
+    },
+    "B0BZ15FM42": {
+      "mean_rating": 1.25,
+      "review_count": 12,
+      "one_star_ratio": 0.75,
+      "complaint_ratio": 0.5
+    },
+    "B0C1FRBK4K": {
+      "mean_rating": 1.083,
+      "review_count": 12,
+      "one_star_ratio": 0.917,
+      "complaint_ratio": 0.583
+    },
+    "B0C337TNGS": {
+      "mean_rating": 1.5,
+      "review_count": 12,
+      "one_star_ratio": 0.5,
+      "complaint_ratio": 0.5
+    },
+    "B0C3NMZ2C7": {
+      "mean_rating": 1.25,
+      "review_count": 12,
+      "one_star_ratio": 0.75,
+      "complaint_ratio": 0.333
+    },
+    "067167949X": {
+      "mean_rating": 1.545,
+      "review_count": 11,
+      "one_star_ratio": 0.455,
+      "complaint_ratio": 0.182
+    },
+    "B00007M1TZ": {
+      "mean_rating": 1.545,
+      "review_count": 11,
+      "one_star_ratio": 0.455,
+      "complaint_ratio": 0.273
+    },
+    "B0027VT6V4": {
+      "mean_rating": 1.727,
+      "review_count": 11,
+      "one_star_ratio": 0.273,
+      "complaint_ratio": 0.636
+    },
+    "B0040IUI46": {
+      "mean_rating": 1.273,
+      "review_count": 11,
+      "one_star_ratio": 0.727,
+      "complaint_ratio": 0.364
+    },
+    "B005LKB0IU": {
+      "mean_rating": 1.727,
+      "review_count": 11,
+      "one_star_ratio": 0.273,
+      "complaint_ratio": 0.273
+    },
+    "B006GWO5NE": {
+      "mean_rating": 1.364,
+      "review_count": 11,
+      "one_star_ratio": 0.636,
+      "complaint_ratio": 0.364
+    },
+    "B006JH8T3S": {
+      "mean_rating": 1.455,
+      "review_count": 11,
+      "one_star_ratio": 0.545,
+      "complaint_ratio": 0.455
+    },
+    "B0077L8YOO": {
+      "mean_rating": 1.182,
+      "review_count": 11,
+      "one_star_ratio": 0.818,
+      "complaint_ratio": 0.636
+    },
+    "B0083Q04IQ": {
+      "mean_rating": 1.545,
+      "review_count": 11,
+      "one_star_ratio": 0.455,
+      "complaint_ratio": 0.818
+    },
+    "B0087BDWBI": {
+      "mean_rating": 1.636,
+      "review_count": 11,
+      "one_star_ratio": 0.364,
+      "complaint_ratio": 0.364
+    },
+    "B008GAT8EU": {
+      "mean_rating": 1.182,
+      "review_count": 11,
+      "one_star_ratio": 0.818,
+      "complaint_ratio": 0.636
+    },
+    "B00A3YN0Z0": {
+      "mean_rating": 1.273,
+      "review_count": 11,
+      "one_star_ratio": 0.727,
+      "complaint_ratio": 0.818
+    },
+    "B00B3OA7R8": {
+      "mean_rating": 1.364,
+      "review_count": 11,
+      "one_star_ratio": 0.636,
+      "complaint_ratio": 0.636
+    },
+    "B00CRQUKQ4": {
+      "mean_rating": 1.455,
+      "review_count": 11,
+      "one_star_ratio": 0.545,
+      "complaint_ratio": 0.364
+    },
+    "B00GHY5F3K": {
+      "mean_rating": 1.727,
+      "review_count": 11,
+      "one_star_ratio": 0.273,
+      "complaint_ratio": 0.455
+    },
+    "B00IVPU786": {
+      "mean_rating": 1.364,
+      "review_count": 11,
+      "one_star_ratio": 0.636,
+      "complaint_ratio": 0.727
+    },
+    "B00K8GZED4": {
+      "mean_rating": 1.364,
+      "review_count": 11,
+      "one_star_ratio": 0.636,
+      "complaint_ratio": 0.455
+    },
+    "B00TS6JL4S": {
+      "mean_rating": 1.182,
+      "review_count": 11,
+      "one_star_ratio": 0.818,
+      "complaint_ratio": 0.727
+    }
+  },
+  "templated_phrases": [
+    {
+      "text": "lasted 42 days My tablet is stuck on the boot screen and when pressing the factory reset buttons (power and up volume) all I get is a robot with a red triangle and exclamation point on it and it won't go to the recovery menu. The question now is, will the manufacture replace it after 42 days? I will update. Otherwise I liked the device. A one year warranty card did come with the device from the manuf.<br /><br />No response from the manuf or otherwise after a week.",
+      "occurrences": 3,
+      "distinct_products": 3
+    },
+    {
+      "text": "One Star Poor quality item. Very disappointed",
+      "occurrences": 2,
+      "distinct_products": 2
+    },
+    {
+      "text": "Cracked after 5 months This product broke after five months of light use. The case broke and chipped at the corners leaving sharp edges that snagged clothing and left the iPad exposed. This case did not stand up to Specks standard quality and it was tossed and traded for an Otter Box. Bummer, because in the past, Speck has made great iPad cases.",
+      "occurrences": 2,
+      "distinct_products": 1
+    },
+    {
+      "text": "DO NOT PURCHASE!!! WARNING not enough wattage to hear audio in vehicle terrible product. looks good visually but thats it ... ... .. (sigh) cost to return to high to deal with. very frustrating DO NOT PURCHASE!!! WARNING",
+      "occurrences": 2,
+      "distinct_products": 2
+    },
+    {
+      "text": "Did NOT work at all. Just received and went to use and doesn\u2019t work. Will be returning asap.",
+      "occurrences": 2,
+      "distinct_products": 1
+    },
+    {
+      "text": "Fading in and out after 2-3 months These headphones worked great for about two and a half months. Now one of the headphones constantly fades in and out while fully charged. They sometimes have trouble staying connected as a pair. When these headphones are working they\u2019re great. When they\u2019re not working they\u2019re incredibly frustrating.",
+      "occurrences": 2,
+      "distinct_products": 1
+    },
+    {
+      "text": "TERRIBLE AVOID like the PLAGUE!! TERRIBLE Camera. I loved it for the first 4-5 months. It worked as designed and seemed great.<br />However as time passed it began to have MASSIVE ISSUES.<br />It just beeps randomly now until reset. It does not record more than 2-3 mins on each file then the video dies and you just get audio, which is useless in a wreck.<br />Then as time went on the menus glitched out displaying garbage.<br />Now the video is upside down and the menus are so hosed you can't correct it.<br />The screen just glitches out when shutting down. it no longer shuts down correctly, the screen just flickers until the battery dies.<br />Had to replace the unit with a new brand this was GARBAGE.<br />Look elsewhere if you need a camera for more than 6 months..",
+      "occurrences": 2,
+      "distinct_products": 2
+    },
+    {
+      "text": "BUYER BEWARE - NOT DUAL LINK DVI All of these cheap Cables Unlimited branded dual-link DVI cables are NOT dual link. The pins look like the cable _should be dual link_ but the cable itself is wired for single-link only.<br /><br />The 5-star reviews for this product are all for low-resolution monitors that only require single link.<br /><br />BUYER BEWARE",
+      "occurrences": 2,
+      "distinct_products": 2
+    },
+    {
+      "text": "BEWARE! THIS RUINED MY THUMB JOINT I used the a Logitech trackball mouse both at home & work. After about 1 1/2 years I had to have surgery to replace the trapeziometacarpal (TMC) joint (Trapezium bone). I can't say this will definitely happen to you but it is a distinct possibility. The surgeon said that she had seen this same injury from other trackball users. I loved using a trackball so much that I switched to the style with a center ball so I could use your index & middle finger.",
+      "occurrences": 2,
+      "distinct_products": 2
+    },
+    {
+      "text": "Did not work for me. My radio did not work well at all. It was very difficult to get the reception to start with, but anytime you touched the light, or SOS, or flash light the radio would crack up with static for good 30 seconds (see video). Also, it would somehow lose the station after you turn it off. It made no sense to me and completely makes this radio almost unusable.",
+      "occurrences": 2,
+      "distinct_products": 1
+    }
+  ]
+}

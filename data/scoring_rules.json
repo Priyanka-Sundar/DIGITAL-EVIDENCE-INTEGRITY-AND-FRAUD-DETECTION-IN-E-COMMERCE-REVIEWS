@@ -1,0 +1,93 @@
+{
+  "component_weights": {
+    "evidence_rating": 2,
+    "evidence_complaint": 3,
+    "evidence_image": 1,
+    "evidence_unverified": 1,
+    "evidence_rating_deviation": 2,
+    "evidence_activity": 2,
+    "evidence_negative_behavior": 2,
+    "evidence_text_repetition": 2,
+    "evidence_temporal": 2,
+    "evidence_network": 1,
+    "evidence_anomaly": 2,
+    "evidence_image_reuse": 2
+  },
+  "priority_bins": {
+    "routine_review": [
+      0,
+      5
+    ],
+    "contextual_examination": [
+      6,
+      9
+    ],
+    "high_priority_examination": [
+      10,
+      null
+    ]
+  },
+  "conclusion_thresholds": {
+    "contextual": 7,
+    "high_priority": 12
+  },
+  "likelihood_bands": {
+    "very_strong_max_p": 0.01,
+    "strong_max_p": 0.05,
+    "moderate_max_p": 0.1
+  },
+  "null_model": {
+    "simulations": 5000,
+    "seed": 42,
+    "assumption": "independent component firing at empirical rates"
+  },
+  "domains": {
+    "reviewer_fraud": [
+      "evidence_unverified",
+      "evidence_activity",
+      "evidence_negative_behavior",
+      "evidence_anomaly",
+      "evidence_network"
+    ],
+    "coordinated_sabotage": [
+      "evidence_temporal",
+      "evidence_rating_deviation"
+    ],
+    "content_authenticity": [
+      "evidence_text_repetition",
+      "evidence_image_reuse"
+    ],
+    "evidence_integrity": [
+      "evidence_image",
+      "evidence_complaint"
+    ]
+  },
+  "signal_flags": {
+    "flag_one_star": "evidence_rating",
+    "flag_complaint_theme": "evidence_complaint",
+    "flag_image_evidence": "evidence_image",
+    "flag_unverified_purchase": "evidence_unverified",
+    "flag_rating_deviation": "evidence_rating_deviation",
+    "flag_high_activity": "evidence_activity",
+    "flag_negative_behavior": "evidence_negative_behavior",
+    "flag_text_repetition": "evidence_text_repetition",
+    "flag_temporal_burst": "evidence_temporal",
+    "flag_broad_network": "evidence_network",
+    "flag_reviewer_anomaly": "evidence_anomaly",
+    "flag_image_reuse": "evidence_image_reuse"
+  },
+  "verdict_rules": {
+    "content_authenticity_concern": "domain_content_authenticity >= 2",
+    "coordinated_negative_campaign_pattern": "domain_coordinated_sabotage >= 3",
+    "reviewer_fraud_pattern": "domain_reviewer_fraud >= 5",
+    "authentic_complaint_likely": "domain_evidence_integrity >= 2 and forensic_signal_score <= 5",
+    "routine_complaint": "default"
+  },
+  "customer_guidance": {
+    "Content authenticity concern": "Review content may be copied or fabricated; cross-check identical wording and images before trusting the claim.",
+    "Coordinated negative campaign pattern": "Complaint timing and rating deviation resemble a coordinated campaign; verify with seller history and independent sources.",
+    "Reviewer fraud pattern": "Reviewer behavior matches fake or abusive account patterns; treat the complaint as unverified.",
+    "Authentic complaint likely": "Complaint shows verifiable evidence and purchase context; treat as credible customer feedback.",
+    "Routine complaint": "Ordinary negative feedback; no accumulated manipulation signals detected."
+  }
+}
